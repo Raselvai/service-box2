@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  font-family: "Radio Canada Big", sans-serif;
+  color: #777d7f;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.container {
+	max-width: 1200px !important;
+}
+
+.service_wrapper {
+    width: 100%;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.service_wrapper .service_item {
+	padding: 45px 40px;
+	background: #000e1252;
+	border-radius: 12px;
+	backdrop-filter: blur(28px);
+	border: 1px solid rgba(0, 14, 18, .32);
+	transition: 0.4s all ease-in-out;
+	height: 100%;
+}
+
+.service_wrapper .service_item:hover {
+	border: 1px solid #FA6444;
+}
+
+.service_wrapper .service_item .service_icon {
+	width: 80px;
+	height: 80px;
+	display: inline-flex;
+	align-items: center;
+	background: linear-gradient(180deg,var(--Text-Primary, #000E12) 0%,var(--Primary-500, #FA6444) 293.75%);
+	justify-content: center;
+	border-radius: 4px;
+	flex-shrink: 0;
+	margin-right: 15px;
+}
+
+.service_wrapper .service_item h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.service_wrapper .service_item p {
+	line-height: 26px;
+	margin-top: 15px;
+}
+
+.mt_30 {
+	margin-top: 30px;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) { 
+
+}
+
+@media (max-width: 991px) {
+	.service_wrapper {
+		height: auto;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+		
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+}
